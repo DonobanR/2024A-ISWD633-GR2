@@ -7,7 +7,8 @@ Es un archivo único que contiene todos los programas, librerías, dependencias 
 
 
 ## ¿Cuál es la relación entre una imagen y un contenedor? 
-# COMPLETAR 
+# COMPLETAR
+Partiendo que los contenedores se generan a partir de imágenes, que actúan como plantillas para su creación. Un contenedor es una instancia en ejecución de una imagen, y es posible tener varios contenedores ejecutándose a partir de la misma imagen. Las imágenes son inmutables, mientras que los contenedores pueden modificarse durante su ejecución. Las imágenes se utilizan para crear nuevos contenedores y pueden ser almacenadas y versionadas. Por otro lado, los contenedores son temporales y efímeros; sus cambios se pierden al detenerse, a menos que se utilicen volúmenes externos para conservar los datos.
 
 ![Imagen y contenedores](imagenes/imagenYcontenedores.JPG)
 ## Comandos para imágenes
